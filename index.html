@@ -5,9 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Housing Tracker</title>
 
+    <meta property="og:title" content="Housing Tracker"/>
+    <!--
+        <meta property="og:image" content=""/>
+    -->
+
+    <!-- inter import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- titillium web import -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./media/imgs/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
+        <section class="navbar-container">
+            <nav class="navbar">
+                <ul class="nav-items">
+                    <li class="home-button"> <img src="./media/imgs/logo.png" alt="Logo" style="width: 50px"> </li>
+                    <li class="search-bar">
+                        <img src="./media/imgs/search.png" alt="Search icon" style="width: 20px">
+                        Search...
+                    </li>
+                    <li class="popular">
+                        <img src="./media/imgs/dropdownArrow.png" alt="Dropdown arrow" style="width: 15px">
+                        Popular
+                    </li>
+                    <li class="leaderboard">
+                        <img src="./media/imgs/dropdownArrow.png" alt="Dropdown arrow" style="width: 15px">
+                        Leaderboard
+                    </li>
+                    <li class="data">
+                        <img src="./media/imgs/dropdownArrow.png" alt="Dropdown arrow" style="width: 15px">
+                        Data
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="main-container">
+            <div class="header">
+
+            </div>
+            <div class="sort-container">
+                <button type="button" class="sort-filter-button">
+                    Sort Filters
+                </button>
+            </div>
+            <div class="main">
+    
+                <div class="housing-container">
+                    <ul class="housing-list">
+                        <li>
+                            <div class="housing-thumbnail">
+                                <img src="./media/imgs/placeholder.png" width="100px" alt="Thumbnail image">
+                            </div>
+                            <div class="housing-text">
+                                <h4 class="title">
+                                    Name
+                                </h4>
+                                <div class="players">
+                                    <img src="./media/imgs/playericon.png" width="20px" alt="Player icon">
+                                    <p class="player-count">Player count</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="housing-thumbnail">
+                                <img src="./media/imgs/placeholder.png" width="100px" alt="Thumbnail image">
+                            </div>
+                            <div class="housing-text">
+                                <h4 class="title">
+                                    Name
+                                </h4>
+                                <div class="players">
+                                    <img src="./media/imgs/playericon.png" width="20px" alt="Player icon">
+                                    <p class="player-count">Player count</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="housing-thumbnail">
+                                <img src="./media/imgs/placeholder.png" width="100px" alt="Thumbnail image">
+                            </div>
+                            <div class="housing-text">
+                                <h4 class="title">
+                                    Name
+                                </h4>
+                                <div class="players">
+                                    <img src="./media/imgs/playericon.png" width="20px" alt="Player icon">
+                                    <p class="player-count">Player count</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="housing-thumbnail">
+                                <img src="./media/imgs/placeholder.png" width="100px" alt="Thumbnail image">
+                            </div>
+                            <div class="housing-text">
+                                <h4 class="title">
+                                    Name
+                                </h4>
+                                <div class="players">
+                                    <img src="./media/imgs/playericon.png" width="20px" alt="Player icon">
+                                    <p class="player-count">Player count</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
     
     <script src="main.js"></script>
 </body>

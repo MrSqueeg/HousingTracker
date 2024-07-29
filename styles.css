@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/*--------------------------------navbar--------------------------------*/
+
+.navbar {
+    border: 2px solid #dbdbdb;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+}
+
+.navbar .nav-items {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    height: 70px;
+}
+
+.navbar .nav-items li {
+    margin: 0 20px 0 20px;
+}
+
+.nav-items .home-button {
+    margin: 0 10px 0 10px !important;
+}
+
+.nav-items .search-bar {
+    padding: 5px 60px 5px 10px;
+    background-color: #dbdbdb;
+    color: #1e1e1e;
+    border-radius: 5px;
+    margin: 0 60px 0 60px;
+}
+
+/*--------------------------------header--------------------------------*/
+
+/*--------------------------------main--------------------------------*/
+
+.sort-container .sort-filter-button {
+    background-color: #dbdbdb;
+    border: transparent;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding: 5px 40px 5px 40px;
+    margin: 30px 100px 30px 100px;
+    position: relative;
+    float: right;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main .housing-container {
+    background-color: #dbdbdb;
+    border-radius: 20px;
+    width: 70%;
+}
+
+.housing-list {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.housing-list li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.housing-text {
+    text-align: center;
+}
+
+.players img {
+    margin: 0 5px 0 0;
+}
+
+.players .player-count {
+    font-size: 14px;
+}
+
+.housing-text .players {
+    display: flex;
+    justify-content: center;
+}
+
+/*--------------------------------media queries--------------------------------*/
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    /*.nav-items .home-button img {
+        width: 10px;
+    }*/
+} 
